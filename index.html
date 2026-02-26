@@ -5,12 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tour of DOM</title>
 
+    <style>
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: greenyellow;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <a id="myLink" href="https://www.google.com" target="_blank">Go To Google</a>
-    <button onclick="showHref()">Show Link</button>
-    <p id="output"></p>
+    
+    <button onclick="changeBgColor()">Color Change</button>
 
-    <script src="JS/script.js"></script>
+    <button onclick="makeBgRed()">Make BG Red</button>
+
+    <button onclick="makeBgGreen()">Make BG Green</button>
+
+    <button onclick="makeBgWhite()">Make Button White</button>
+
+    <script src="JS/event.js"></script>
 </body>
 </html>
