@@ -14,7 +14,7 @@ function makeBgGreen() {
 function makeBgWhite() {
     const btn = document.querySelector('button');
     btn.style.backgroundColor = 'white';
-} */
+} 
 
     document.getElementById('colorChangeBtn').addEventListener('click', function() {
         const btn = document.querySelector('button');
@@ -24,4 +24,6 @@ function makeBgWhite() {
     document.getElementById('makeBgRedBtn').addEventListener('click', function() {
         document.body.style.backgroundColor = 'red';
     });
+*/
+
 
