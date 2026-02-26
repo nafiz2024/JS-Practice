@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comment Box</title>
+
+    <style>
+      .comment {
+        background-color: lightcyan;
+        margin: 10px;
+        padding: 10px;
+        border: 2px solid lightblue;
+        border-radius: 10px;
+      }
+
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: greenyellow;
+        border: none;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My Awesome Comment Box. Write what in your mind!!!</h1>
+    <section>
+      <h3>All Comments Here</h3>
+      <div id="comment_container">
+        <p class="comment">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, atque?
+          Doloribus, assumenda veritatis exercitationem praesentium quisquam
+          deserunt animi expedita eveniet quas sunt hic, nemo itaque dolore, ea
+          minus nisi cum?
+        </p>
+        <p class="comment">
+          Assumenda, neque aliquid fuga odio iste et officiis, id vero nisi
+          voluptate reprehenderit rem, in doloribus. Quisquam optio laborum
+          ratione excepturi eum a illo. Corrupti ipsa nesciunt officiis ipsam
+          quia.
+        </p>
+        <p class="comment">
+          Unde adipisci incidunt libero nobis asperiores corrupti omnis. Ipsam
+          eligendi nostrum iure dicta? Dicta, magnam quibusdam dignissimos,
+          consectetur reprehenderit obcaecati enim maxime culpa quisquam ratione
+          eaque, saepe laborum autem doloremque!
+        </p>
+      </div>
+
+      <textarea
+        name="comment"
+        id="comment"
+        cols="60"
+        rows="5"
+        placeholder="Write your comment here..."
+      ></textarea>
+      <br />
+      <button id="comment_submit">Submit Comment</button>
+    </section>
+
+    <script src="JS/comment-box.js"></script>
+  </body>
+</html>
